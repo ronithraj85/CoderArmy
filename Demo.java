@@ -21,5 +21,23 @@ public class Demo{
         System.out.println("Booleans in Java:");
         boolean h = true; // boolean can hold either true or false
         System.out.println(h);
+        System.out.println("Number systems in Java:");
+        int binary = 0b1010; // binary number system (prefix 0b)
+        int decimal = 10; // decimal number system
+        int octal = 012; // octal number system (prefix 0)
+        int hexadecimal = 0xA; // hexadecimal number system (prefix 0x)
+        System.err.println("Binary: " + binary);
+        System.out.println("Decimal: " + decimal);
+        System.out.println("Octal: " + octal);
+        System.out.println("Hexadecimal: " + hexadecimal);
+
+        double ds = 6.022e23; // scientific notation (6.022 x 10^23)
+        System.out.println("Scientific notation: " + d);
+
+        long ln = 12_26_12;
+        System.out.println("Underscores in numeric literals: " + ln);
+
+        float fl = 0.0f;
+        System.out.println("Float: " + fl );
     }
 } 
