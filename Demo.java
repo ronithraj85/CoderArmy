@@ -26,7 +26,7 @@ public class Demo{
         int decimal = 10; // decimal number system
         int octal = 012; // octal number system (prefix 0)
         int hexadecimal = 0xA; // hexadecimal number system (prefix 0x)
-        System.err.println("Binary: " + binary);
+        System.out.println("Binary: " + binary);
         System.out.println("Decimal: " + decimal);
         System.out.println("Octal: " + octal);
         System.out.println("Hexadecimal: " + hexadecimal);
@@ -37,7 +37,7 @@ public class Demo{
         long ln = 12_26_12;
         System.out.println("Underscores in numeric literals: " + ln);
 
-        float fl = 0.0f;
+        float fl = 23.5f;
         System.out.println("Float: " + fl );
     }
 } 
